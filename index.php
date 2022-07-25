@@ -1,7 +1,7 @@
 <?php 
 
 
-ech0 "This is a php app";
+echo "This is a php app";
 
 
 ?>
