@@ -1,6 +1,6 @@
 <?php
 
- $conn = new mysqli(null,"root","H2DpAK9gNXmtVy","mycampu3_mycampusmart");
+ $conn = new mysqli("us-cdbr-east-06.cleardb.net","b482de1d7faa15","aca9930c","heroku_7a76f8f53911f87");
 
 	
 	
