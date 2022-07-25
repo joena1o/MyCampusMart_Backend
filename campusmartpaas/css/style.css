@@ -1,0 +1,67 @@
+#welcome_section{
+	margin-top: 30;
+	padding:20px;
+	
+}
+#welcome_section .p{
+	margin-top: 30;
+	padding:20px;
+}
+
+#welcome_section .i{
+	font-size: 50px;
+	color:red;
+}
+
+.fa-facebook{
+	font-size: 30px;
+	margin:10px;
+	color:black;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-whatsapp:hover{
+	font-size: 30px;
+	margin:10px;
+	color:gainsboro;
+}
+.fa-whatsapp{
+	font-size: 30px;
+	margin:10px;
+}
+.fa-instagram{
+	font-size: 30px;
+	margin:10px;
+}
+.servicesLbl{
+	margin: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+	
+}
+
+.card{
+	/* box-shadow:rgba(149,157,165,0.2) 0px 0px 24px;
+	border: 0px; */
+	margin-bottom: 20px;
+}
+
+
+#skill div{
+
+	padding: 10px;
+
+}
+
+.col-sm-12{
+	margin-top: 20px;
+}
+.nav-menu ul{
+    /* justify-content: center; */
+	list-style: none;
+	margin-top: 100px;
+	margin-left: 0px;
+}
+.nav-menu li{
+    margin: 20px;
+    /* text-align: center; */
+}

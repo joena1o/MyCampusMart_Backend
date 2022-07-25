@@ -1,0 +1,4 @@
+[01-Nov-2021 16:51:40 UTC] PHP Deprecated:  crypt(): Supplied salt is not valid for DES. Possible bug in provided salt format. in /home2/mycampu3/public_html/campusmartpaas/index.php on line 11
+[01-Nov-2021 17:02:58 UTC] PHP Parse error:  syntax error, unexpected '8' (T_LNUMBER) in /home2/mycampu3/public_html/campusmartpaas/index.php on line 17
+[01-Nov-2021 17:03:08 UTC] PHP Parse error:  syntax error, unexpected '8' (T_LNUMBER) in /home2/mycampu3/public_html/campusmartpaas/index.php on line 17
+[01-Nov-2021 17:06:51 UTC] PHP Parse error:  syntax error, unexpected '8' (T_LNUMBER) in /home2/mycampu3/public_html/campusmartpaas/index.php on line 17
