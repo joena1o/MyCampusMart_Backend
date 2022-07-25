@@ -1,6 +1,6 @@
 <?php 
 
-if(isset($_POST['submit']) && isset($_POST['email']) && isset($_POST['password']) ){
+if(isset($_POST['submit']) && isset($_POST['new_pass']) && isset($_POST['cpassword']) ){
     
     include("../conn.php");
     
