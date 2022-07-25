@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
     $check_num = mysqli_num_rows($check);
     
     
-    if(strlen($pass) < 8 && strlen($cpass) 8< ){
+    if(strlen($pass) < 8 && strlen($cpass) <  8){
         echo '<div class="alert alert-danger">
     New password must be at least 8 characters long
     </div>';
