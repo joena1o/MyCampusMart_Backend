@@ -1,6 +1,6 @@
 <?php 
 
-if(isset($_POST['submit'])){
+if(isset($_POST['submit']) && isset($_POST['email']) && isset($_POST['password']) ){
     
     include("../conn.php");
     
@@ -107,8 +107,8 @@ if(isset($_POST['submit'])){
 
         <form class="form-group" method='post' action='https://www.mycampusmart.com.ng/campusmartpaas/index.php?email=jonathan'>
 
-            <div class="lead">Email: <?php if(isset($_GET['EMAIL'])) echo $_GET['EMAIL'] ?></div><br>
-<input name="email" class="form-control" value="<?php if(isset($_GET['EMAIL'])) echo $_GET['EMAIL'] ?>" type="hidden">
+            <div class="lead">Email: <?php if(isset($_GET['email'])) echo $_GET['email'] ?></div><br>
+<input name="email" class="form-control" value="<?php if(isset($_GET['email'])) echo $_GET['email'] ?>" type="hidden">
 
             <input name="new_pass" class="form-control" placeholder="Enter new Password" type="password"><br>
             <input name="cpassword" class="form-control" placeholder="Confirm Password" type="password" ><br>
