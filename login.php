@@ -18,8 +18,6 @@ $password =  mysqli_real_escape_string($conn,$_POST['password']);
 
   	$array[] = $row;
 
-    echo $row;
-
   }
 
   echo json_encode($array);

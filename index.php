@@ -1,7 +1,8 @@
 <?php 
 
 
-echo crypt("Hyefurjoe", '$12$hrd$reer');;
+echo crypt(urlencode("Hyefurjoe"), '$12$hrd$reer');
+
 
 
 ?>
