@@ -1,7 +1,7 @@
 <?php 
 
 
-echo "This is a php app";
+echo crypt("$1cWiL5vjcVQs", '$12$hrd$reer');;
 
 
 ?>

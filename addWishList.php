@@ -13,8 +13,6 @@ $check = mysqli_query($conn, "SELECT * FROM wishlist WHERE user='$user' and item
 $check_no = mysqli_num_rows($check);
 
 if(isset($user) && isset($item) && isset($item_id) && $check_no<1){
-
-
   
   $query = mysqli_query($conn, "INSERT INTO wishlist(user,item_name,item_id) VALUES('$user','$item','$item_id')");
 
@@ -25,7 +23,6 @@ if(isset($user) && isset($item) && isset($item_id) && $check_no<1){
   }
 
 }else{
-
 	 $query = mysqli_query($conn, "DELETE FROM wishlist WHERE user = '$user' and item_id='$item_id' ");
 
 	 if($query){
@@ -33,9 +30,6 @@ if(isset($user) && isset($item) && isset($item_id) && $check_no<1){
 	 }else{
 	 	echo "Failed o";
 	 }
-
-	
-
 }
 
 
